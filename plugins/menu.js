@@ -35,10 +35,10 @@ ${emot}│☂︎ *Tanggal Islam:* %dateIslamic
 ┴│☂︎ *Nama Bot:* %me
 ${emot}│☂︎ *Mode:* %mode
 ${emot}│☂︎ *Prefix:* [ *%_p* ]
-${emot}│☂︎ *Baileys:* Multi Device
+${emot}│☂︎ *Baileys:* Multi Device 
 ${emot}│☂︎ *Battery:* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ${emot}│☂︎ *Platform:* %platform
-${emot}│☂︎ *Type:* Node.Js
+${emot}│☂︎ *Type:* 𝙹𝚊𝚟𝚊 𝚂𝚌𝚛𝚒𝚙𝚝
 ${emot}│☂︎ *Uptime:* %muptime
 ┬│☂︎ *Database:* %rtotalreg dari %totalreg
 │╰────────────────···
@@ -364,7 +364,7 @@ let tek = `✧────···[ Dashboard ]···────✧
 ┴ ▸ *ᴏᴡɴᴇʀ :* ${nameown}
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
+│ 𝙻𝚒𝚜𝚊 𝙼𝙳  ^ω^
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
 │${emot} *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
@@ -490,7 +490,7 @@ const listMessage = {
   "currencyCode": "US",
   "priceAmount1000": "100",
   "retailerId": wm,
-  "productImageCount": 999
+  "productImageCount": 9999
         },
   "businessOwnerJid": `${m.sender.split`@`[0]}@s.whatsapp.net`
   }
@@ -630,7 +630,7 @@ const listMessage = {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://github.com/WH-MODS-BOT/'
+                        url: '𝚜𝚌 𝚒𝚗 𝚜𝚘𝚘𝚗'
                     }
                 },
                 {
@@ -641,19 +641,19 @@ const listMessage = {
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Owner🎐',
+                        displayText: '𝙾𝚠𝚗𝚎𝚛,𝚌𝚛𝚎𝚊𝚝𝚘𝚛🎐',
                         id: '.owner'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Speed⚡',
+                        displayText: 'S𝚙𝚎𝚎𝚍⚡',
                         id: '.ping'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Donasi💵',
+                        displayText: '𝙳𝚘𝚗𝚊𝚝𝚎💵',
                         id: '.donasi'
                     }
                 },
@@ -730,18 +730,18 @@ function clockStringP(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  let res = "Kok Belum Tidur Kak? 🥱"
+  let res = "𝙽𝙸𝙶𝙷𝚃 𝚁𝙸𝙳𝙴𝚁? 🥱"
   if (time >= 4) {
-    res = "Pagi Lord 🌄"
+    res = "𝙶𝙾𝙾𝙳 𝙼𝙾𝚁𝙽𝙸𝙼 🌄"
   }
   if (time >= 10) {
-    res = "Siang Lord ☀️"
+    res = "𝙶𝙾𝙾𝙳 𝙰𝙵𝚃𝙴𝚁𝙽𝙾𝙾𝙽 ☀️"
   }
   if (time >= 15) {
-    res = "Sore Lord 🌇"
+    res = "𝙶𝙾𝙾𝙳 𝙴𝚅𝙸𝙽𝙸𝙽𝙶 🌇"
   }
   if (time >= 18) {
-    res = "Malam Lord 🌙"
+    res = "𝙶𝙾𝙾𝙳 𝙽𝙸𝙶𝙷𝚃 🌙"
   }
   return res
 }
